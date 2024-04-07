@@ -1,0 +1,157 @@
+[
+    {
+      "id": "1",
+      "image": "https://i.ibb.co/SsKQDSc/image.png",
+      "background": "https://i.ibb.co/mD9C1CK/image.png",
+      "title": "Medicine For All Children",
+      "category": "Health",
+      "price": 299.00,
+      "category_bg_color": "#0052ff33",
+      "card_bg_color": "#0052ff26",
+      "text_button_bg_color": "#0052FF",
+      "description": "Health donation, often referred to as medical or healthcare donation, involves the provision of resources, services, or financial contributions to support the well-being and medical needs of individuals and communities. This form of charitable giving plays a crucial role in improving access to healthcare, medical research, and the overall quality of healthcare services. Health donations can take various forms, including the donation of medical supplies, funds for medical treatments, support for healthcare organizations, and participation in medical research. "
+  
+    },
+    {
+      "id": "2",
+      "image": "https://i.ibb.co/vHjNLTn/image.png",
+      "background": "https://i.ibb.co/wYVvy7h/image.png",
+      "title": "Best Education Happy Life",
+      "category": "Education",
+      "price": 199.00,
+      "category_bg_color": "#ff444a33",
+        "card_bg_color": "#ff444a26",
+        "text_button_bg_color": "#FF444A",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
+  
+    },
+    {
+      "id": "3",
+      "image": "https://i.ibb.co/RynbgNJ/image.png",
+      "background": "https://i.ibb.co/8bYz3fs/image.png",
+      "title": "Happy Cloth Happy Life",
+      "category": "Clothing",
+      "price": 399.00,
+      "category_bg_color": "#79c23f33",
+        "card_bg_color": "#79c23f26",
+        "text_button_bg_color": "#79C23F",
+        "description": "Clothing donation is a charitable practice where individuals, businesses, or organizations contribute gently used or new clothing items to help those in need. This act of generosity serves several important purposes, including assisting individuals and families with limited resources, reducing textile waste, and supporting community welfare programs. Clothing donations can include various types of apparel, such as clothing for all age groups, shoes, outerwear, and accessories. These donations are typically collected and distributed through local charities, nonprofit organizations, or thrift stores. The recipients of clothing donations may include low-income individuals, disaster victims, homeless individuals, and refugees, among others. "
+      
+    
+    },
+    {
+      "id": "4",
+      "image": "https://i.ibb.co/5MbyQsV/image.png",
+      "background": "https://i.ibb.co/93dQ0Zq/image.png",
+      "title": "Good Food For All Children",
+      "category": "Food",
+      "price": 290.00,
+      "category_bg_color": "#f8714733",
+        "card_bg_color": "#f8714726",
+        "text_button_bg_color": "#F87147",
+        "description": "Food donation is a charitable practice in which individuals, organizations, or businesses contribute surplus or unneeded food items to provide sustenance to individuals and communities in need. This act of giving helps combat hunger, reduce food waste, and promote social responsibility. Food donations can come from various sources, including individuals, restaurants, supermarkets, and food manufacturers. These donations encompass non-perishable foods, perishable items, prepared meals, and even monetary contributions. The donated food is distributed through food banks, pantries, soup kitchens, and meal programs to reach those facing food insecurity. "
+      
+    },
+    {
+      "id": "5",
+      "image": "https://i.ibb.co/5MbyQsV/image.png",
+      "background": "https://i.ibb.co/93dQ0Zq/image.png",
+      "title": "Good Food Good Life",
+      "category": "Food",
+      "price": 390.00,
+      "category_bg_color": "#f8714733",
+        "card_bg_color": "#f8714726",
+        "text_button_bg_color": "#F87147",
+        "description": "Food donation is a charitable practice in which individuals, organizations, or businesses contribute surplus or unneeded food items to provide sustenance to individuals and communities in need. This act of giving helps combat hunger, reduce food waste, and promote social responsibility. Food donations can come from various sources, including individuals, restaurants, supermarkets, and food manufacturers. These donations encompass non-perishable foods, perishable items, prepared meals, and even monetary contributions. The donated food is distributed through food banks, pantries, soup kitchens, and meal programs to reach those facing food insecurity. ."
+  
+    },
+    {
+      "id": "6",
+      "image": "https://i.ibb.co/RynbgNJ/image.png",
+      "background": "https://i.ibb.co/8bYz3fs/image.png",
+      "title": "Used Clothing Drive Happiness For Someone",
+      "category": "Clothing",
+      "price": 190.00,
+      "category_bg_color": "#79c23f33",
+        "card_bg_color": "#79c23f26",
+        "text_button_bg_color": "#79C23F",
+        "description": "Clothing donation is a charitable practice where individuals, businesses, or organizations contribute gently used or new clothing items to help those in need. This act of generosity serves several important purposes, including assisting individuals and families with limited resources, reducing textile waste, and supporting community welfare programs. Clothing donations can include various types of apparel, such as clothing for all age groups, shoes, outerwear, and accessories. These donations are typically collected and distributed through local charities, nonprofit organizations, or thrift stores. The recipients of clothing donations may include low-income individuals, disaster victims, homeless individuals, and refugees, among others. "
+  
+    },
+    {
+      "id": "7",
+      "image": "https://i.ibb.co/vHjNLTn/image.png",
+      "background": "https://i.ibb.co/wYVvy7h/image.png",
+      "title": "Education For Children",
+      "category": "Education",
+      "price": 490.00,
+      "category_bg_color": "#ff444a33",
+        "card_bg_color": "#ff444a26",
+        "text_button_bg_color": "#FF444A",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
+    },
+    {
+      "id": "8",
+      "image": "https://i.ibb.co/SsKQDSc/image.png",
+      "background": "https://i.ibb.co/mD9C1CK/image.png",
+      "title": "Good health good life make you happy",
+      "category": "Health",
+      "price": 590.00,
+      "category_bg_color": "#0052ff33",
+        "card_bg_color": "#0052ff26",
+        "text_button_bg_color": "#0052FF",
+        "description": "Health donation, often referred to as medical or healthcare donation, involves the provision of resources, services, or financial contributions to support the well-being and medical needs of individuals and communities. This form of charitable giving plays a crucial role in improving access to healthcare, medical research, and the overall quality of healthcare services. Health donations can take various forms, including the donation of medical supplies, funds for medical treatments, support for healthcare organizations, and participation in medical research."
+      
+    },
+    
+  
+    {
+      "id": "9",
+      "image": "https://i.ibb.co/SsKQDSc/image.png",
+      "background": "https://i.ibb.co/mD9C1CK/image.png",
+      "title": "Clean & pure water for all children",
+      "category": "Health",
+      "price": 200.00,
+      "category_bg_color": "#0052ff33",
+        "card_bg_color": "#0052ff26",
+        "text_button_bg_color": "#0052FF",
+        "description": "Health donation, often referred to as medical or healthcare donation, involves the provision of resources, services, or financial contributions to support the well-being and medical needs of individuals and communities. This form of charitable giving plays a crucial role in improving access to healthcare, medical research, and the overall quality of healthcare services. Health donations can take various forms, including the donation of medical supplies, funds for medical treatments, support for healthcare organizations, and participation in medical research."
+    },
+    {
+      "id": "10",
+      "image": "https://i.ibb.co/vHjNLTn/image.png",
+      "background": "https://i.ibb.co/wYVvy7h/image.png",
+      "title": "Educate your children to happy in life",
+      "category": "Education",
+      "price": 200.00,
+      "category_bg_color": "#ff444a33",
+        "card_bg_color": "#ff444a26",
+        "text_button_bg_color": "#FF444A",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
+    },
+    {
+      "id": "11",
+      "image": "https://i.ibb.co/RynbgNJ/image.png",
+      "background": "https://i.ibb.co/8bYz3fs/image.png",
+      "title": "Cloth can make smile of someone",
+      "category": "Clothing",
+      "price": 100.00,
+      "category_bg_color": "#79c23f33",
+        "card_bg_color": "#79c23f26",
+        "text_button_bg_color": "#79C23F",
+        "description": "IClothing donation is a charitable practice where individuals, businesses, or organizations contribute gently used or new clothing items to help those in need. This act of generosity serves several important purposes, including assisting individuals and families with limited resources, reducing textile waste, and supporting community welfare programs. Clothing donations can include various types of apparel, such as clothing for all age groups, shoes, outerwear, and accessories. These donations are typically collected and distributed through local charities, nonprofit organizations, or thrift stores. The recipients of clothing donations may include low-income individuals, disaster victims, homeless individuals, and refugees, among others. "
+    },
+    {
+      "id": "12",
+      "image": "https://i.ibb.co/5MbyQsV/image.png",
+      "background": "https://i.ibb.co/93dQ0Zq/image.png",
+      "title": "Feeding the hungry is best works",
+      "category": "Food",
+      "price": 250.00,
+      "category_bg_color": "#f8714733",
+      "card_bg_color": "#f8714726",
+      "text_button_bg_color": "#F87147",
+      "description": "Food donation is a charitable practice in which individuals, organizations, or businesses contribute surplus or unneeded food items to provide sustenance to individuals and communities in need. This act of giving helps combat hunger, reduce food waste, and promote social responsibility. Food donations can come from various sources, including individuals, restaurants, supermarkets, and food manufacturers. These donations encompass non-perishable foods, perishable items, prepared meals, and even monetary contributions. The donated food is distributed through food banks, pantries, soup kitchens, and meal programs to reach those facing food insecurity. "
+    }
+  ]
+  
