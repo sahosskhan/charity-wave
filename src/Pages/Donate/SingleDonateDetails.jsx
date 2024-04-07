@@ -4,27 +4,28 @@ import Swal from 'sweetalert2';
 const SingleDonateDetails = ({ DonateDetails }) => {
     const { id, title, price, background, description, categoryColor } = DonateDetails || {};
 
-    const handleAddToFavorites = () => {
-        const addedFavoritesArray = [];
-
-        const favoriteItems = JSON.parse(localStorage.getItem("favorites")) || [];
-
-        if (!favoriteItems.length) {
-            addedFavoritesArray.push(id);
-            localStorage.setItem("favorites", JSON.stringify(addedFavoritesArray));
-            Swal.fire("Good job!", "Product added successfully!", "success");
+    const handleMyDonation = () => {
+        const myDonatedArray = [];
+    
+        const myDonationItems = JSON.parse(localStorage.getItem("MyDonation")) || [];
+    
+        if (!myDonationItems.length) {
+            myDonatedArray.push(DonateDetails);
+            localStorage.setItem("MyDonation", JSON.stringify(myDonatedArray));
+            Swal.fire("Good job!", "Donation added successfully!", "success");
         } else {
-            const isExists = favoriteItems.find((item) => item === id);
-
+            const isExists = myDonationItems.find((item) => item.id === id);
+    
             if (!isExists) {
-                addedFavoritesArray.push(...favoriteItems, id);
-                localStorage.setItem("favorites", JSON.stringify(addedFavoritesArray));
+                myDonatedArray.push(...myDonationItems, DonateDetails);
+                localStorage.setItem("MyDonation", JSON.stringify(myDonatedArray));
                 Swal.fire("Good job!", "You Donated for Happiness!", "success");
             } else {
                 Swal.fire("Oops!", "You already donated!", "error");
             }
         }
     };
+    
 
     return (
         <div className="max-w-screen-2xl container mx-auto p-5">
@@ -34,7 +35,7 @@ const SingleDonateDetails = ({ DonateDetails }) => {
                         <h2 className="text-3xl font-semibold text-gray-800 lg:text-4xl">{title}</h2>
                         <p className="mt-4 text-base text-gray-500 lg:text-base">{description}</p>
                         <div className="flex flex-col mt-6 space-y-3 lg:space-y-0 lg:flex-row">
-                            <button onClick={handleAddToFavorites} style={{
+                            <button onClick={handleMyDonation} style={{
                 backgroundColor:categoryColor,
             }} className="block px-6 py-3 text-lg font-medium tracking-wider text-center text-black    rounded-md ">Donate {price}$</button>
                         </div>

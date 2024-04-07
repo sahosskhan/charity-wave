@@ -34,7 +34,7 @@ const Navbar = () => {
           </li>
           <li className="text-2xl font-semibold text-black">
             <NavLink
-              to="/your-donation"
+              to="/my-donation"
               className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "text-blue-600 " : ""
               }
@@ -86,7 +86,7 @@ const Navbar = () => {
           </li>
           <li className="text-2xl font-semibold text-black">
             <NavLink
-              to="/your-donation"
+              to="/my-donation"
               className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "text-blue-600 " : ""
               }
