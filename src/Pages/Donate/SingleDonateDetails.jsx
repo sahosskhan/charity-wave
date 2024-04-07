@@ -12,16 +12,16 @@ const SingleDonateDetails = ({ DonateDetails }) => {
         if (!myDonationItems.length) {
             myDonatedArray.push(DonateDetails);
             localStorage.setItem("MyDonation", JSON.stringify(myDonatedArray));
-            Swal.fire("Good job!", "Donation added successfully!", "success");
+            Swal.fire("Good job!", "🥰 You Donated for Happiness!", "success");
         } else {
             const isExists = myDonationItems.find((item) => item.id === id);
     
             if (!isExists) {
                 myDonatedArray.push(...myDonationItems, DonateDetails);
                 localStorage.setItem("MyDonation", JSON.stringify(myDonatedArray));
-                Swal.fire("Good job!", "You Donated for Happiness!", "success");
+                Swal.fire("Good job!", "🥰 You Donated for Happiness!", "success");
             } else {
-                Swal.fire("Oops!", "You already donated!", "error");
+                Swal.fire("Oops!", "🫡 You already donated!", "error");
             }
         }
     };

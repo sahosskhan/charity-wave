@@ -18,9 +18,9 @@ const MyDonationMain = () => {
       }
     }, []);
     return (
-        <div className="max-w-screen-2xl container mx-auto my-10">
+        <div className="max-w-screen-2xl container mx-auto my-10 flex justify-center items-center">
               {notFound ? (
-        <p className="h-[80vh] flex justify-center items-center">{notFound}</p>
+        <p className="h-[80vh] flex justify-center text-2xl items-center">😥{notFound}</p>
       ) : (
         <div>
    
