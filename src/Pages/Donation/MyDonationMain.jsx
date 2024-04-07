@@ -37,7 +37,7 @@ const MyDonationMain = () => {
             }
           </div>
 
-          {donationData.length > 4 && <button onClick={()=>setIsShow(!isShow)} className="px-5 bg-blue-500 block mt-20 btn rounded-lg text-white hover:bg-gray-700 transition-colors duration-700 font-medium text-lg mx-auto">
+          {donationData.length > 4 && <button onClick={()=>setIsShow(!isShow)} className="px-5 bg-blue-500 block mt-20 btn rounded-lg text-white hover:bg-gray-700  hover:scale-110 scale-100 transition-all duration-700 font-medium text-lg mx-auto">
             {isShow ? "See less" : "See more"}
           </button>}
         </div>

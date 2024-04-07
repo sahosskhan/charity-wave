@@ -37,12 +37,12 @@ const SingleDonateDetails = ({ DonateDetails }) => {
                         <div className="flex flex-col mt-6 space-y-3 lg:space-y-0 lg:flex-row">
                             <button onClick={handleMyDonation} style={{
                 backgroundColor:categoryColor,
-            }} className="block px-6 py-3 text-lg font-medium tracking-wider text-center text-black    rounded-md ">Donate {price}$</button>
+            }} className="block px-6 py-3 text-lg font-medium hover:scale-110 scale-100 transition-all duration-300 tracking-wider text-center text-black    rounded-md ">Donate {price}$</button>
                         </div>
                     </div>
                 </div>
                 <div className="w-full h-64 lg:w-1/2 lg:h-auto rounded-xl">
-                    <div className="w-full h-full rounded-xl bg-cover" style={{ backgroundImage: `url(${background})` }}>
+                    <div className="w-full h-full rounded-xl bg-cover hover:scale-110 scale-100 transition-all duration-300" style={{ backgroundImage: `url(${background})` }}>
                         <div className="w-full h-full bg-black opacity-10" />
                     </div>
                 </div>
