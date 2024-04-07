@@ -11,7 +11,7 @@ const Header = () => {
         <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">Best platform to choose <br /> your <span className="text-blue-500 ">donation</span></h1>
         <p className="mt-3 text-gray-600 dark:text-gray-400">A donation is a gift for charity, humanitarian aid, or to benefit a cause. A donation may take various forms, including money, alms, services, or goods such as clothing, toys, food, or vehicles.</p>
 <Link to="/donate-some-love">
-<button className="w-full px-5 hover:scale-110 scale-100 transition-all duration-300 py-2 mt-6 text-sm tracking-wider text-white uppercase  transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">Donate Now</button>
+<button className="w-full px-5 hover:scale-110 scale-100 transition-all duration-300 py-2 mt-6 text-lg tracking-wider text-white uppercase  transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">Donate Now</button>
 </Link>
       </div>
     </div>
