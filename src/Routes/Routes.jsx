@@ -5,6 +5,7 @@ import Home from "../Pages/Home/Home";
 import MainDonate from "../Pages/Donate/MainDonate";
 import DonateDetails from "../Pages/Donate/DonateDetails";
 import MyDonationMain from "../Pages/Donation/MyDonationMain";
+import Statistics from "../Pages/Statistics/Statistics";
 
 const Router =  createBrowserRouter([
     {
@@ -30,6 +31,11 @@ const Router =  createBrowserRouter([
             {
                 path : "/my-donation",
                 element : <MyDonationMain/>,
+            },
+            
+            {
+                path : "/statistics",
+                element : <Statistics/>,
             }
         ]
 
