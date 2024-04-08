@@ -1,7 +1,7 @@
 # Charity Wave - is a donation management platform.  
 
 ## Description
-Charity Wave is a Tailwind CSS & React JS based front-end project designed to manage donations like education, food, clothing, health etc. It provides a platform for users to efficiently manage donations. ##
+Charity Wave is a Tailwind CSS & React JS based front-end project designed to manage donations like education, food, clothing, health etc. It provides a platform for users to efficiently manage donations.
 
 ## [Source Code](https://github.com/sahosskhan/charity-wave)
 
