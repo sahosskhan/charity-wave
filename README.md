@@ -1,7 +1,7 @@
 # Charity Wave - is a donation management platform.  
 
 ## Description
-Charity Wave is a Tailwind CSS & React JS based front-end project designed to manage donation like education, food, clothing, health etc. It provides a platform for users to efficiently manage donation.##
+Charity Wave is a Tailwind CSS & React JS based front-end project designed to manage donations like education, food, clothing, health etc. It provides a platform for users to efficiently manage donations.##
 
 ## [Source Code](https://github.com/sahosskhan/charity-wave)
 
@@ -11,11 +11,11 @@ Charity Wave is a Tailwind CSS & React JS based front-end project designed to ma
 
 
 ## Features
-- Basically This is a front-end project there are no functionality & features that can be explore.
-- There use JSON for dynamically design implementation
-- You Can find 4 Categories Of Donations to donate
-- You Can see detailed information about the categories donation
-- You Can Donate Some Money on various donation catagories
+- Basically, This is a front-end project with no functionality & features that can be explored.
+- They use JSON for dynamic design implementation
+- You Can Find 4 Categories Of Donations to donate
+- You Can see detailed information about the categories of donation
+- You Can Donate Some Money in various donation categories
 - You Can See The Statistics Report Of Your donation as pie charts
 - There Are 5 main routes Home, Donate, My Donation, Statistics.
 
@@ -27,10 +27,10 @@ Charity Wave is a Tailwind CSS & React JS based front-end project designed to ma
 - **React Router DOM**: Declarative routing for React applications.
 - **Tailwind CSS**: A utility-first CSS framework packed with classes.
 - **Daisy UI**: The most popular component library for Tailwind CSS.
-- **Sweetalert2**: A beautiful, responsive, highly customizable and accessible (WAI-ARIA) replacement for JavaScript's popup boxes. Zero dependencies.
+- **Sweetalert2**: A beautiful, responsive, highly customizable, and accessible (WAI-ARIA) replacement for JavaScript's popup boxes. Zero dependencies.
 - **React-helmet-async**: A document head manager for React. 
 - **Recharts**: A composable charting library built on React components
-- **localStorage**: The localStorage is a built-in feature of web browsers that enables to store small amounts of data persistently on a user's device.
+- **localStorage**: The localStorage is a built-in feature of web browsers that enables the storage of small amounts of data persistently on a user's device.
 
 
 
@@ -54,6 +54,8 @@ Charity Wave is a Tailwind CSS & React JS based front-end project designed to ma
     npm install react-helmet-async
     npm install sweetalert2
     npm install recharts
+    npm install -D tailwindcss postcss autoprefixer
+    npx tailwindcss init -p
     npm install -D daisyui@latest
     ```
 5. Start the client localhost:
@@ -61,7 +63,7 @@ Charity Wave is a Tailwind CSS & React JS based front-end project designed to ma
     npm run dev
     ```
 
-6. Client side deployment:
+6. Client-side deployment:
     ```
     npm run build
     ```
@@ -71,10 +73,10 @@ Charity Wave is a Tailwind CSS & React JS based front-end project designed to ma
     - Create an account in netlify hosting
     - Copy a `dist` folder in the root directory.
     - Paste In Deploy Section
-    - Customize Domain Name According Project Name
+    - Customize Domain Name According to Project Name
 
 
-13. Navigate to `http://localhost:5173` in your browser to view the application.
+8. Navigate to `http://localhost:5173` in your browser to view the application.
 
 ## Contributors
 - [sahosskhan](https://github.com/sahosskhan)
